@@ -16,8 +16,8 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
  * @author Leonid Vysochyn
  */
 public class StyleRowSample {
-    private static String templateFileName = "examples/templates/rowstyle.xls";
-    private static String destFileName = "build/rowstyle_output.xls";
+    private static String templateFileName = "E:/templates/rowstyle2.xls";
+    private static String destFileName = "E:/build/rowstyle_output2.xls";
 
     public static void main(String[] args) throws IOException, ParsePropertyException, InvalidFormatException {
         if (args.length >= 2) {
